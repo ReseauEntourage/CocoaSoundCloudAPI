@@ -1,6 +1,6 @@
 {
   "name": "CocoaSoundCloudAPI",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "summary": "A simple way to interact with the SoundCloud  CocoaSoundCloudAPI.",
   "homepage": "https://github.com/ReseauEntourage/CocoaSoundCloudAPI",
   "authors": {
@@ -14,6 +14,7 @@
   },
   "source": {
     "git": "https://github.com/ReseauEntourage/CocoaSoundCloudAPI.git",
+    "tag": "v1.0.0"
   },
   "source_files": [
     "Sources",
@@ -22,7 +23,7 @@
   "frameworks": "Security",
   "dependencies": {
     "NXOAuth2Client": [
-      "1.2.2"
+      "1.2.1"
     ]
   },
   "license": "Apache License, Version 2.0",
