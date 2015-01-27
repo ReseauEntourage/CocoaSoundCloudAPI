@@ -1,5 +1,5 @@
 # Important notice
-Unfortunately, we decided to discontinue support for this project; SoundCloud will no longer accept pull requests or make public releases of CocoaSoundCloudAPI. If you're using CocoaSoundCloudAPI in one of your projects, we suggest you fork the project in order to perform any necessary maintenance.
+As SoundCloud decided to discontinue support for this project; we, ReseauEntourage, decided to fork this repo and update it to fit our needs
 
 # The SoundCloud API for Cocoa
 
@@ -17,7 +17,7 @@ We document the [changes to the different versions](https://github.com/soundclou
 
 This guide assumes a few things:
 
-* You are using Xcode 4
+* You are using Xcode 6
 * You are using Git.
 
 ## Demo
@@ -32,14 +32,13 @@ We're taking a fresh new iOS Project as an example. Integration into an existing
 [CocoaPods](http://cocoapods.org/) is a dependency manager for Xcode projects. 
 If you are already using `CocoaPods` you can include all necessary libraries by adding following lines to your `Podfile`:
 ```
-pod 'CocoaSoundCloudAPI', '1.0.1'
+pod 'CocoaSoundCloudAPI', :git => 'https://github.com/ReseauEntourage/CocoaSoundCloudAPI.git'
 pod 'CocoaSoundCloudUI', '1.0.5'
 ```
 and run `pod install`.
 
 Please note, that these `Pods` already include following `dependencies`:
 * `OHAttributedLabel`
-* `JSONKit`
 * `NXOAuth2Client`
 
 :hand: ^5 Everything is set up, and you can skip to the **Usage** section!
